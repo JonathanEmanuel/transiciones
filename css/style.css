@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+header {
+    height: 200px;
+    color: #f1f1f1;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,94,190,1) 47%, rgba(0,212,255,1) 100%);
+}
+
+.buscar {
+    font-size: 28px;
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+    transition: width 2s;
+}
+
+.buscar:focus{
+    background-color: springgreen;
+    width: 500px;
+}
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: slateblue;
+    margin: 10px;
+    display: inline-block;
+    transition: all 1.5s;
+
+}
+
+.translate:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 5px 5px 5px #000;
+}
+
+.rotate:hover{
+    transform: rotate(110deg);
+}
+
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+.rotateX:hover {
+    transform: rotateX(70deg);
+}
+
+
+
+.rotateZ:hover {
+    transform: rotateZ(70deg);
+}
+
+.scale:hover {
+    transform: scale(1.2,1.2);
+    box-shadow: 5px 5px 5px #000;
+}
+
+.skew:hover {
+    transform: skew(10deg, 20deg);
+}
+
+.transition:hover {
+    height: 230px;
+    width: 300px;
+}
+
+.transitionAll:hover {
+    height: 230px;
+    width: 300px;
+    background-color: tomato;
+}
